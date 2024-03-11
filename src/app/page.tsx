@@ -50,6 +50,7 @@ export default function Home() {
       <Navbar />
       <main className="flex min-h-[calc(100vh-56px)] flex-col items-center justify-between w-full gap-10 pb-10">
         <div className="w-[99vw] flex flex-col gap-10">
+          {/* Slider  */}
           {sliderContent && (
             <Carousel autoplay>
               {sliderContent.map((contentItem, index) => (
@@ -76,6 +77,8 @@ export default function Home() {
               ))}
             </Carousel>
           )}
+
+          {/* Content */}
           <div className="px-10 flex flex-col gap-10">
             {platformSectionData &&
               platformSectionData.length > 0 &&

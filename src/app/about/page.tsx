@@ -63,7 +63,6 @@ const About = () => {
           </div>
 
           {/* Page Content */}
-
           <div className="grid grid-cols-3 px-40 ">
             <div className="flex items-center justify-end pr-10 col-span-1">
               <h3 className="m-0 text-2xl font-bold">
@@ -91,14 +90,6 @@ const About = () => {
               ))}
             </div>
           </div>
-
-          {/* <div
-            className="h-[60vh] w-full flex items-center justify-center text-white"
-            style={{
-              background: `url("${aboutContentMemo?.hero_image}")`,
-              backgroundSize: "percentage",
-            }}
-          /> */}
         </main>
         <Footer />
       </div>
